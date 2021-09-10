@@ -10,11 +10,6 @@ java {
     }
 }
 
-dependencies {
-    implementation(group = "org.eclipse.jetty", name = "jetty-server", version = "11.0.6")
-    runtimeOnly(group="org.slf4j", name= "slf4j-nop", version = "2.0.0-alpha1")
-}
-
 application {
     mainClass.set("com.example.Example")
 }
